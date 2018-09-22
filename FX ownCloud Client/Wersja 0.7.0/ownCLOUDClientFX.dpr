@@ -1,3 +1,8 @@
+{
+Cały projekt musi trafić do przebudowy.
+Funkcjonalność jest dobra, projekt młody z 2018 roku, ale przyda się refaktoryzacja kodu, by był czytelniejszy i prostszy.
+}
+
 program ownCLOUDClientFX;
 
 uses
