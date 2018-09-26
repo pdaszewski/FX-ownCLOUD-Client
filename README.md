@@ -1,7 +1,7 @@
 # FX-ownCLOUD-Client
-Klient chmury ownCLOUD napisany w Delphi
+ownCLOUD client written in Delphi 10.2
 
 2018-09-15
-Klient całkowicie napisany w Delphi - najnowsza kompilacja w Tokyo 10.2.3 z wykorzystaniem komponentów VCL.
-Pozwala podłączyć się do dowolnego serwera ownCLOUD i wykonywać podstawowe operacje na plikach i katalogach w tym systemie.
-To co może być przydatne to opcje jego wywołania z wiersza poleceń z parametrami, dzięki którym możemy automatyzować niektóre z prac na chmurze ownCLOUD.
+Client completely written in Delphi - the latest build in Tokyo 10.2.3 using VCL components.
+It allows you to connect to any ownCLOUD server and perform basic operations on files and directories in this system.
+What may be useful are the options of calling it from the command line with parameters, thanks to which we can automate some of the works on the ownCLOUD cloud.
