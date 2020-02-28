@@ -1,17 +1,12 @@
-{
-Cały projekt musi trafić do przebudowy.
-Funkcjonalność jest dobra, projekt młody z 2018 roku, ale przyda się refaktoryzacja kodu, by był czytelniejszy i prostszy.
-}
-
 program ownCLOUDClientFX;
 
 uses
   Vcl.Forms,
-  AOknoGl_frm in 'Okna\AOknoGl_frm.pas' {AOknoGl},
-  ownCLOUDunit_frm in 'Okna\ownCLOUDunit_frm.pas' {ownCLOUDunit},
   Vcl.Themes,
   Vcl.Styles,
-  WgrywanieFolderu_frm in 'Okna\WgrywanieFolderu_frm.pas' {WgrywanieFolderu};
+  AOknoGl_frm in 'ProjectForms\AOknoGl_frm.pas' {AOknoGl},
+  ownCLOUDunit_frm in 'ProjectForms\ownCLOUDunit_frm.pas' {ownCLOUDunit},
+  WgrywanieFolderu_frm in 'ProjectForms\WgrywanieFolderu_frm.pas' {WgrywanieFolderu};
 
 {$R *.res}
 

@@ -514,9 +514,9 @@ begin
  SV.CloseStyle := TSplitViewCloseStyle(grpCloseStyle.ItemIndex);
  cbxVclStyles.ItemIndex := cbxVclStyles.Items.IndexOf(TStyleManager.ActiveStyle.Name);
 
- plik_konfiguracji:=ExtractFilePath(Application.ExeName)+'Dane\';
+ plik_konfiguracji:=ExtractFilePath(Application.ExeName)+'Data\';
  if DirectoryExists(plik_konfiguracji)=False then CreateDir(plik_konfiguracji);
- plik_konfiguracji:=plik_konfiguracji+'konfiguracja.txt';
+ plik_konfiguracji:=plik_konfiguracji+'Configuration.txt';
  Card2.Show;
  Application.ProcessMessages;
 end;

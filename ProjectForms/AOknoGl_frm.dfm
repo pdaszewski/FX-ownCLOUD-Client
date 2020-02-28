@@ -31,7 +31,6 @@ object AOknoGl: TAOknoGl
     ParentBackground = False
     TabOrder = 0
     OnMouseDown = pnlToolbarMouseDown
-    ExplicitWidth = 869
     DesignSize = (
       1004
       50)
@@ -390,7 +389,6 @@ object AOknoGl: TAOknoGl
     Constraints.MinHeight = 384
     Constraints.MinWidth = 512
     TabOrder = 2
-    ExplicitWidth = 649
     object Card1: TCard
       Left = 1
       Top = 1
@@ -1095,7 +1093,6 @@ object AOknoGl: TAOknoGl
       Caption = 'Card2'
       CardIndex = 1
       TabOrder = 1
-      ExplicitWidth = 647
       DesignSize = (
         782
         542)
@@ -1109,7 +1106,6 @@ object AOknoGl: TAOknoGl
         Color = 12477460
         ParentBackground = False
         TabOrder = 0
-        ExplicitWidth = 647
         DesignSize = (
           782
           50)
@@ -1531,7 +1527,6 @@ object AOknoGl: TAOknoGl
     ParentFont = False
     TabOrder = 3
     Visible = False
-    ExplicitLeft = 230
     object ProgressBar: TProgressBar
       Left = 8
       Top = 64
@@ -1547,7 +1542,7 @@ object AOknoGl: TAOknoGl
     Left = 80
     Top = 316
     Bitmap = {
-      494C01010A008000500120002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C01010A008000540120002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       00000000000036000000280000008000000060000000010020000000000000C0
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
