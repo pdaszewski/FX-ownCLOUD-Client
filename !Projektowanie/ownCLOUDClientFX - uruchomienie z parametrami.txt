@@ -1,0 +1,33 @@
+﻿Składnia wykonania programu w trybie wsadowym wymaga podania zawsze 5 parametrów:
+parametr 1: -auto (wymagany - wskazuje, czy program ma być uruchomiony w trybie wsadowym.
+Jakikolwiek inny parametr pierwszy pominie uruchamianie wsadowe.
+
+parametr 2: -quiet lub -debug - uruchomienie z parametrem -debug pozwala aplikacji zwracać wartość komunikaty wykonania operacji wsadowej i czekać na potwierdzenie przez użytkownika.
+
+parametr 3: to komenda do wykonania
+aplikacja umożliwia wykonanie następujących komend:
+ - mkdir - towrzy nowy katalog we wskazanym folderze,
+ - download - pobiera plik w folderze roboczym i zapisuje pod tą samą nazwą do wskazanego w 5 parametrze katalogu na dysku lokalnym,
+ - upload - wgrywa plik z dysku lokalnego do folderu roboczego serwera ownCLOUD,
+ - delete - kasuje wskazany plik na serwerze (przenosi go do kosza),
+ - upload_dir - wykonuje automatycznie narzędzie do rekurencyjnego wgrywania plików na serwer ownCLOUD,
+ 
+parametr 4: to zawsze folder roboczy w którym, bądź na którym wykonywane są operacje.
+parametr 5: to obiekt którego dotyczy operacja (nazwa folderu, pliku itp - w zależności od rodzaju operacji.
+
+PRZYKŁADY:
+
+Tworzenie nowego folderu:
+ > ownCLOUDClientFX.exe -auto -quiet mkdir "/Documents" "Nowy folder z parametru"
+
+Pobieranie pliku:
+ > ownCLOUDClientFX.exe -auto -quiet download "/Documents/Example.odt" "D:\"
+
+Wgrywanie pliku:
+ > ownCLOUDClientFX.exe -auto -quiet upload "/Documents" "D:\2\ownCloud Manual.pdf"
+
+Kasowanie pliku:
+ > ownCLOUDClientFX.exe -auto -quiet delete "/Documents" "ownCloud Manual.pdf"
+
+Kopiowanie rekorencyjne całego folderu:
+ > ownCLOUDClientFX.exe -auto -debug upload_dir "/Documents" "D:\2\Wybierany folder"
